@@ -1,0 +1,3 @@
+{
+  "MongoDBURI": "mongodb+srv://<username>:<password>@cluster0-oslok.mongodb.net/<database>?retryWrites=true&w=majority"
+}
