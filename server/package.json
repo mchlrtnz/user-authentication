@@ -1,0 +1,44 @@
+{
+  "name": "user-authentication",
+  "version": "1.0.0",
+  "description": "Building user authentication using Node.js, Express, Express Validator, Nodemon, MongoDB Atlas, Mongoose, BcryptJS, JsonWebToken, React and Redux",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchlrtnz/user-authentication.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Express Validator",
+    "Nodemon",
+    "MongoDB Atlas",
+    "Mongoose",
+    "BcryptJS",
+    "JsonWebToken",
+    "React",
+    "Redux"
+  ],
+  "author": "mchlrtnz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchlrtnz/user-authentication/issues"
+  },
+  "homepage": "https://github.com/mchlrtnz/user-authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.2",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
